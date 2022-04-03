@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name" translatable="false">Ramdan_2022</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="calender">Calender</string>
+    <string name="dua">Dua</string>
+    <string name="guide">Guide</string>
+    <string name="_99_names_of_allah">99 Names of Allah</string>
+    <string name="help">Help</string>
+    <string name="information">Information</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Calander">calender</string>
+    <string name="Dua">Dua</string>
+    <string name="Guide">Guide</string>
+    <string name="AllahNames">99 Names of Allah</string>
+    <string name="Help">Help</string>
+    <string name="Information">Information</string>
+
+
+</resources>

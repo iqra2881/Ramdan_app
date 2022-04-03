@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".GuideFragment">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:text="Guide"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ramadan Guidance for Students
+Many Muslim students will be fasting during Ramadan. See advice and guidance here on staying well during this time and where to get support if you need it.Ramadan
+Ramadan is the ninth month of the Islamic calendar and the month when the Holy Qur’an was revealed to the Islamic prophet Muhammad.
+
+Ramadan is a holy month of religious reflection and fasting during Ramadan is one of the Five Pillars of Islam. During this month Muslims are encouraged to increase their good deeds, from acts of charity and community engagement to increasing good values such as generosity, solidarity, kindness, patience and forgiveness. Fasting means not eating or drinking between the hours of sunrise and sunset.
+
+"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Staying Healthy"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The dates of Ramadan vary from year to year, currently it falls within the Semester Two revision/assessment period. You may find that managing your academic commitments while observing Ramadan can be a challenge."
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The University recognises religion and belief as a protected characteristic and is aware that fasting may have an impact upon students’ revision and preparation for and during exams. Students observing fast prior and during an examination period may find the following advice from the NHS helpful."
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Who performs fasting?"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It is obligatory on all Muslims who have reached puberty to observe the fast.
+
+Many younger children are gradually introduced to fasting by performing it for half days or occasional days. Practice will vary across families, though usually this does not happen before the age of 7.
+
+If you have concerns about a young child fasting, speak with the parents and also if you can with their Imam. NHS Choices has advice on Ramadan health, which recommends not fasting for children under seven or possibly eight years old.
+
+Those who are ill, travelling, women who are menstruating and in developed stages of pregnancy do not have to fast but will catch up days missed later in the year or provide food for the needy. Families will make their own decision on such issues affecting their children.
+
+ "
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How can schools support fasting students during exams?"
+                android:textAlignment="center"
+                android:textColor="#000"
+
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Offer guidance on avoiding dehydration, eating nutritious food, taking appropriate rest periods, organising revision sessions etc. during the run-up to Ramadan and exercising flexibility where possible.
+
+Provide a quiet room during break times where students are able to pray, rest or revise between examinations.
+
+Work with parents to offer advice to students on how to use their time sensibly for rest and revision, especially early in the morning and waiting to break the fast at night."
+                android:textColor="#000" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon_silhouette"
+            android:title="@string/menu_home"
+           />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/calendar"
+            android:title="@string/calender"
+            />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/dua"
+            android:title="@string/dua"
+           />
+        <item
+            android:id="@+id/nav_guidefregment"
+            android:icon="@drawable/manual"
+            android:title="@string/guide"
+          />
+        <item
+            android:id="@+id/nav_namesofAllah"
+            android:icon="@drawable/bismillah"
+            android:title="@string/_99_names_of_allah"
+            />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/idea"
+            android:title="@string/help"
+            />
+    </group>
+<item android:title="About Us">
+    android:menuCategory="secondary"
+
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/file"
+                android:title="@string/information"
+
+
+                />
+
+        </menu>
+</item>
+        </menu>
+
+
+

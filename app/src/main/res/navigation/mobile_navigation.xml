@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ramdan_2022.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.ramdan_2022.ui.gallery.GalleryFragment"
+        android:label="@string/Calander"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.ramdan_2022.ui.slideshow.SlideshowFragment"
+        android:label="@string/Dua"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_guidefregment"
+        android:name="com.example.ramdan_2022.GuideFragment"
+        android:label="@string/Guide"
+        tools:layout="@layout/fragment_guide" />
+    <fragment
+        android:id="@+id/nav_namesofAllah"
+        android:name="com.example.ramdan_2022.NamesofAllah"
+        android:label="@string/AllahNames"
+        tools:layout="@layout/fragment_namesof_allah" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.ramdan_2022.Help"
+        android:label="@string/Help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.ramdan_2022.Information"
+        android:label="@string/Information"
+        tools:layout="@layout/fragment_information" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.ramdan_2022.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" />
+</navigation>
